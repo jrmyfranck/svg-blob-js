@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* align our svg to the center of the viewport both horizontally and vertically */
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+svg {
+  /* a perfectly square <svg> element that will never overflow the viewport */
+  width: 90vmin;
+  height: 90vmin;
+}

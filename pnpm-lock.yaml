@@ -1,0 +1,30 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@georgedoescode/spline':
+        specifier: ^1.0.1
+        version: 1.0.1
+      open-simplex-noise:
+        specifier: ^2.5.0
+        version: 2.5.0
+
+packages:
+
+  '@georgedoescode/spline@1.0.1':
+    resolution: {integrity: sha512-TlNv3mkCxNOrbbKBshZbu54Zf9lLh2b7YZdnynDLYnkagTtWt1ERu5+csWnHsA3uCn6P2OmS8MBLGGDLiKxI+A==}
+
+  open-simplex-noise@2.5.0:
+    resolution: {integrity: sha512-co7x8uWxGcgFtsJNBFqI9ylq+5Isotz2hZR7dsD5Sl+RDPGBeMEG41KAfF+5gF10ksi9Pg6DNpMHEoyTKLbejQ==}
+
+snapshots:
+
+  '@georgedoescode/spline@1.0.1': {}
+
+  open-simplex-noise@2.5.0: {}
